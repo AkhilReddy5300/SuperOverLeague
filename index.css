@@ -1,0 +1,48 @@
+/* Write your code here. */
+.super {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #f8fafc;
+}
+.bg-color {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 120px;
+  width: 120px;
+}
+.img-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+  .super {
+    font-family: "Roboto";
+    font-size: 45px;
+    color: #f8fafc;
+  }
+  .bg-color {
+    background-color: #0f172a;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+  .img-cont {
+    display: flex;
+    flex-direction: row;
+  }
+}
